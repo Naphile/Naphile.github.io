@@ -1,1 +1,43 @@
 /* gunakan flexbox */
+.subject-info {
+    font-size: 24px;
+    font-style: italic;
+    font-family: math;
+}
+
+.celcius-container {
+    text-align: center;
+}
+
+textarea {
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.button {
+    border-radius: 10px;
+    border: 0;
+    height: 32px;
+    width: 80px;
+}
+
+.aqua-color {
+    background-color: aqua;
+}
+
+.red-color {
+    background-color: red;
+    color: white;
+}
+
+.blue-color {
+    background-color: blue;
+    color: white;
+}
+
+.result-container {
+    display: flex;
+    justify-content: space-evenly;
+}
