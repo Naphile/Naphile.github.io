@@ -1,87 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nafil Konversi Suhu</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
+
 <body>
-    <!-- Header/ Navbar -->
-     <header>
+    <!-- Header / Navbar -->
+    <header class="header-convertion">
         <h1>Konversi Suhu</h1>
-     </header>
+    </header>
 
-     <!-- Content -->
-     <main>
-        <h4>Masukkan suhu derajat Celcius (&deg;C)</h4>
-
-        <!-- Section Celcius -->
-        <section class="celcius-container">
-            <header>
-                <h3>Celcius (&deg;C)</h3>
-
-                <section>
-                    <textarea name="" id=""></textarea>
-                </section>
-            </header>
-
-            <section>
-                <button class="button aqua-color">Konversi</button>
-                <button class="button red-color">Reset</button>
-                <button class="button blue-color">Reverse</button>
-            </section>
-        </section>
-
-        <section class="result-container">
-            <!-- Section Farenheit -->
-        <section>
-            <header>
-                <h3>Farenheit (&deg;F)</h3>
-            </header>
-
-            <textarea name="" id=""></textarea>
-        </section>
-
+    <!-- Content -->
+    <main>
+        <section class="convert-section">
         <!-- Section Calculate -->
-        <section>
+        <section class="result-container">
             <header>
                 <h3>Convertion Calculate:</h3>
             </header>
 
-            <textarea name="" id=""></textarea>
+            <textarea name="display-result" id="display-result"></textarea>
         </section>
+
+        <section class="konversi-container">
+            <!-- Section Celcius -->
+            <section class="celcius-container">
+                <header>
+                    <h3>Celcius (&deg;C)</h3>
+
+                    <section>
+                        <textarea name="display-celcius" id="input-celcius"></textarea>
+                    </section>
+                </header>
+            </section>
+
+            <!-- Section Farenheit -->
+            <section class="farenheit-container">
+                <header>
+                    <h3>Farenheit (&deg;F)</h3>
+                </header>
+
+                <textarea name="display-farenheit" id="input-farenheit"></textarea>
+            </section>
+        </section>
+
+        <!-- Section Button -->
+        <section class="button-container">
+            <button class="button aqua-color" id="btn-konversi">Konversi</button>
+            <button class="button red-color" id="btn-reset">Reset</button>
+            <button class="button blue-color" id="btn-reverse">Reverse</button>
+        </section>
+
+        <h4>Note: Masukkan suhu derajat Celcius (&deg;C) / Farenheit (&deg;F)</h4>
         </section>
         <hr>
 
         <!-- Section Formula/Info -->
-        <section>
+        <section class="information">
             <header>
                 <h1>Cara Konversi Dari Celcius (&deg;C) ke Farenheit (&deg;F)</h1>
             </header>
 
-            <p>Suhu <span class="subject-info">S</span> dalam derajat Farenhrit (&deg;F) sama dengan suhu 
+            <p>Suhu <span class="subject-info">S</span> dalam derajat Farenhrit (&deg;F) sama dengan suhu
                 <span class="subject-info">S</span> dalam derajat Celcius (&deg;C)
             </p>
 
             <p>
-                <span class="subject-info">S</span><sub>(&deg;F)</sub> = (<span 
-                class="subject-info">S</span><sub>(&deg;C)</sub> x 1.8) + 32
+                <span class="subject-info">S</span><sub>(&deg;F)</sub> = (<span
+                    class="subject-info">S</span><sub>(&deg;C)</sub> x 1.8) + 32
             </p>
 
             <p>
-                <span class="subject-info">S</span><sub>(&deg;C)</sub> = (<span 
-                class="subject-info">S</span><sub>(&deg;F)</sub> - 32) / 1.8
+                <span class="subject-info">S</span><sub>(&deg;C)</sub> = (<span
+                    class="subject-info">S</span><sub>(&deg;F)</sub> - 32) / 1.8
             </p>
         </section>
-     </main>
+    </main>
 
-     <!-- Footer -->
-      <footer>
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Nafil Rizqullah Rajab | Konversi Suhu
+    </footer>
 
-      </footer>
-
-      <!-- Link js -->
-      <script src="js/script.js"></script>
+    <!-- Link js -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>
