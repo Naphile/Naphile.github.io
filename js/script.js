@@ -55,3 +55,6 @@ function reverseInputs() {
 document.getElementById('btn-konversi').addEventListener('click', convertTemperature);
 document.getElementById('btn-reset').addEventListener('click', resetFields);
 document.getElementById('btn-reverse').addEventListener('click', reverseInputs);
+
+// Note:
+// UNTUK BUTTON REVERSE SETELAH DIKLIK HARUS DI RESET DULU AGAR BISA MELAKUKAN KONVERSI
